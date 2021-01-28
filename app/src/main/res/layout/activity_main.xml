@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="255dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="no"
+        app:srcCompat="@drawable/cyberpunk_2077" />
+
+    <TextView
+        android:id="@+id/featured"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Featured"
+        android:layout_marginTop="5sp"
+        android:layout_marginStart="15sp"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:fontFamily="@font/montserrat_bold"/>
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_below="@id/featured"
+        android:fontFamily="@font/montserrat_bold"
+        android:layout_marginTop="150sp"
+        android:paddingStart="15sp"
+        android:text="Cyberpunk 2077"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        tools:ignore="RtlSymmetry" />
+
+    <TextView
+        android:id="@+id/borderText"
+        android:text="Trending"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textTitle"
+        android:layout_marginStart="15sp"
+        android:textSize="10sp"
+        android:layout_marginTop="5sp"
+        android:paddingStart="5sp"
+        android:paddingEnd="5sp"
+        android:background="@drawable/round_corner"
+        android:fontFamily="@font/montserrat"
+        tools:ignore="SmallSp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rpg"
+        android:textColor="@color/white"
+        android:fontFamily="@font/montserrat"
+        android:layout_below="@+id/textTitle"
+        android:textSize="10sp"
+        android:paddingStart="15sp"
+        android:paddingEnd="15dp"
+        android:background="@drawable/round_corner"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="5sp"
+        android:layout_toEndOf="@+id/borderText"
+        tools:ignore="SmallSp" />
+
+    <TextView
+        android:id="@+id/SubTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:text="Recent"
+        android:textColor="@color/black"
+        android:fontFamily="@font/montserrat_bold"
+        android:textSize="18sp"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="10dp"/>
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SubTitle"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:scrollbars="none"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            </androidx.recyclerview.widget.RecyclerView>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+</RelativeLayout>
+
+
+
+

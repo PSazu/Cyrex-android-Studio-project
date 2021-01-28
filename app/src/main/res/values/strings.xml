@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Cyrex</string>
+    <string name="rpg">RPG</string>
+    <string name="cyberpunk">Cyberpunk 2077 is an open-world, action-adventure story set in Night City, a megalopolis obsessed with power, glamour and body modification. You play as V, a mercenary outlaw going after a one-of-a-kind implant that is the key to immortality. You can customize your character’s cyberware, skillset and playstyle, and explore a vast city where the choices you make shape the story and the world around you.</string>
+    <string name="resident_evil"> Biohazard is set in mid-2017 somewhere in the southern United States, where there have been reports of ghosts sighted around the bayou of the town, Dulvey. The game proper takes place after the events of Beginning Hour, which ended with the murder of a three-man TV crew by the infected Baker family members Jack and Mia. It features a new protagonist named Ethan Winters, a civilian who offers fewer combat skills than most previous Resident Evil protagonists. Ethan is searching for his missing wife, Mia, which leads him to a derelict plantation mansion, home of the Baker family.</string>
+    <string name="rocket_league">The game went free-to-play in September 2020. Described as soccer, but with rocket-powered cars, Rocket League has up to eight players assigned to each of the two teams, using rocket-powered vehicles to hit a ball into their opponents goal and score points over the course of a match.</string>
+    <string name="Sekiro">Shadows Die Twice is an action-adventure video game developed by FromSoftware and published by Activision. The game follows a shinobi known as Wolf as he attempts to take revenge on a samurai clan who attacked him and kidnapped his lord.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
